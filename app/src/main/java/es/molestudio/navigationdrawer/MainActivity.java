@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity {
         });
         mDrawerList.setItemChecked(0, true);
         mTitleSection = getTitle();
-        mTitleApp = getTitle();
+        mTitleApp = getTitle(); 
 
         getSupportActionBar().setTitle(mTitleApp);
 
