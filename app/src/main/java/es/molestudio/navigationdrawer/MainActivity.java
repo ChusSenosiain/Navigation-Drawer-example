@@ -66,6 +66,8 @@ public class MainActivity extends ActionBarActivity {
         mTitleSection = getTitle();
         mTitleApp = getTitle();
 
+        getSupportActionBar().setTitle(mTitleApp);
+
         mDrawerToggle = new ActionBarDrawerToggle(this,
                 mDrawerLayout,
                 R.string.open,
